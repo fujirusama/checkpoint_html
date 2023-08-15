@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8/">
         <title>Checkpoint</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <!--Mise en place de la navbar-->
@@ -19,43 +20,45 @@
         </nav>
         <!--Si vous appuyez sur les liens ci-dessus, ils vous conduirons directement à leur sections correspondante-->
         <!--Section à propos de GMC-->
-        <section class="about_form">
-            <form>
-                About<input id="about" type="text" name="about">
-            </form>
-            <p>
-                GoMyCode est une plateforme éducative qui vise à former les individus aux compétences technologiques les plus demandées, notamment la programmation, le développement web, l'intelligence artificielle, la science des données et plus encore.<br>
-                Fondée en Tunisie en 2017, GoMyCode propose des programmes d'apprentissage en ligne et en présentiel pour les étudiants, les professionnels et toute personne souhaitant acquérir des compétences numériques.
-            </p>
-        </section>
-        <br>
-        <!--Section concernant les services que propose GMC-->
-        <section class="work_form">
-            <form>
-                Work<input id="work" type="text" name="work">
-            </form>
-            <p>
-                1.Cours de Programmation et de Développement Web : GOMYCODE propose une variété de cours de programmation, de développement web et d'autres domaines de la technologie. Ces cours couvrent des langages de programmation populaires tels que Python, JavaScript, HTML, CSS, ainsi que des frameworks et des outils pertinents.<br>
-                2.Modèles d'Apprentissage Flexibles : GOMYCODE offre une gamme de modèles d'apprentissage, y compris des cours en ligne, des ateliers, des formations intensives en présentiel et des programmes longs tels que les bootcamps. Cela permet aux apprenants de choisir la méthode d'apprentissage qui convient le mieux à leurs besoins et à leur emploi du temps.<br>
-                3.Communauté d'Apprentissage : La plateforme GOMYCODE crée une communauté d'apprentissage où les apprenants peuvent collaborer, partager des projets, obtenir de l'aide et interagir avec des instructeurs et d'autres étudiants.<br>
-            </p>
-        </section>
-        <br>
-        <!--Section permettant de résumer GMC-->
-        <section class="resume">
-            <form>
-                resume<input id="resume" type="text" name="resume">
-            </form>
-            <p>
-                GoMyCode vise à contribuer à la formation de la prochaine génération de professionnels du numérique en fournissant des compétences pratiques et actuelles.<br>
-                Cela aide les individus à se préparer aux opportunités d'emploi dans le domaine de la technologie et à contribuer à l'innovation.
-            </p>
-        </section>
+        <div class="form">
+            <section class="about_form">
+                <form class="one">
+                    About  <input id="about" type="text" name="about">
+                </form>
+                <p>
+                    GoMyCode est une plateforme éducative qui vise à former les individus aux compétences technologiques les plus demandées, notamment la programmation, le développement web, l'intelligence artificielle, la science des données et plus encore.<br>
+                    Fondée en Tunisie en 2017, GoMyCode propose des programmes d'apprentissage en ligne et en présentiel pour les étudiants, les professionnels et toute personne souhaitant acquérir des compétences numériques.
+                </p>
+            </section>
+            <br>
+            <!--Section concernant les services que propose GMC-->
+            <section class="work_form">
+                <form class="two">
+                    Work  <input id="work" type="text" name="work">
+                </form>
+                <p>
+                    1.Cours de Programmation et de Développement Web : GOMYCODE propose une variété de cours de programmation, de développement web et d'autres domaines de la technologie. Ces cours couvrent des langages de programmation populaires tels que Python, JavaScript, HTML, CSS, ainsi que des frameworks et des outils pertinents.<br>
+                    2.Modèles d'Apprentissage Flexibles : GOMYCODE offre une gamme de modèles d'apprentissage, y compris des cours en ligne, des ateliers, des formations intensives en présentiel et des programmes longs tels que les bootcamps. Cela permet aux apprenants de choisir la méthode d'apprentissage qui convient le mieux à leurs besoins et à leur emploi du temps.<br>
+                    3.Communauté d'Apprentissage : La plateforme GOMYCODE crée une communauté d'apprentissage où les apprenants peuvent collaborer, partager des projets, obtenir de l'aide et interagir avec des instructeurs et d'autres étudiants.<br>
+                </p>
+            </section>
+            <br>
+            <!--Section permettant de résumer GMC-->
+            <section class="resume_form">
+                <form class="three">
+                    resume  <input id="resume" type="text" name="resume">
+                </form>
+                <p>
+                    GoMyCode vise à contribuer à la formation de la prochaine génération de professionnels du numérique en fournissant des compétences pratiques et actuelles.<br>
+                    Cela aide les individus à se préparer aux opportunités d'emploi dans le domaine de la technologie et à contribuer à l'innovation.
+                </p>
+            </section>
+        </div>
         <br>
         <!--Section dédier à la prise de contact-->
         <section class="contact">
             <form>
-                contact<input id="contact" type="number" name="contact">
+                contact  <input id="contact" type="number" name="contact">
             </form>
             <p>
                 Veuillez mettre votre numéro de téléphone

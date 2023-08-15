@@ -1,0 +1,128 @@
+/*Parametre personnel d'innitialisation de mon fichier css*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    /*le font roboto a été bien mis */
+    font-family: system-ui, -apple-system, Roboto, sans-serif;
+}
+/*Je change la couleur du background*/
+body{
+    background-color: rgb(44, 84, 53);
+}
+/*Je stylise la navbar en la mettant sur la ligne et en changeant la couleur des liens*/
+.navbar{
+    padding: 50px;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+}
+.navbar li{
+    display: inline;
+    gap: 50px;
+}
+.navbar a{
+    color: antiquewhite;
+}
+/*Je colorise les textes et je commence à donner du style au formulaire*/
+p{
+    color: antiquewhite;
+}
+form{
+    color: antiquewhite;
+}
+/*Je stylise les inputs*/
+#about{
+    border: solid rgb(44, 84, 53) 2px;
+    border-radius: 8px;
+    background-color: antiquewhite;
+}
+#work{
+    border: solid rgb(44, 84, 53) 2px;
+    border-radius: 8px;
+    background-color: antiquewhite;
+}
+#resume{
+    border: solid rgb(44, 84, 53) 2px;
+    border-radius: 8px;
+    background-color: antiquewhite;
+}
+.form{
+    display: flex;
+    gap: 10px;
+}
+/*Je configure bien les forms*/
+.one{
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.two{
+    margin-left: 165px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.three{
+    margin-left: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.about_form p{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.work_form p{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+}
+.resume_form p{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/*Je met quelques transition peut etre j'aurais des points bonus*/
+.about_form{
+    border: solid white 2px;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+.about_form:hover{
+    background-color: antiquewhite;
+}
+.about_form p:hover{
+    color: rgb(44, 84, 53);
+}
+.work_form{
+    border: solid white 2px;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+.work_form:hover{
+    background-color: antiquewhite;
+}
+.work_form p:hover{
+    color: rgb(44, 84, 53);
+}
+.resume_form{
+    border: solid white 2px;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+.resume_form:hover{
+    background-color: antiquewhite;
+}
+.resume_form p:hover{
+    color: rgb(44, 84, 53);
+}
+/*Je stylise la partie contact et le footer*/
+.contact{
+    margin-left: 950px;
+    margin-top: 50px;
+}
+#contact{
+    border: solid rgb(44, 84, 53) 2px;
+    border-radius: 8px;
+    background-color: antiquewhite;
+}
